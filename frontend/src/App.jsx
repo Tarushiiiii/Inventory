@@ -1,5 +1,5 @@
 import './App.css'
-import {SearchAutocompelte} from './components/SearchFilter';
+import {SearchAutocomplete} from './components/SearchFilter';
 import {AddItem} from './components/AddItem';
 import {DisplayItem} from './components/DisplayItem';
 import {ItemInfo} from './components/ItemInfo';

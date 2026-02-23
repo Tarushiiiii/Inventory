@@ -6,7 +6,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 
 const options = ["Noida", "Mercury", "Ghaziabad", "2025", "Lead"];
 
-export default function SearchAutocomplete({ setSearch }) {
+export function SearchAutocomplete({ setSearch }) {
   const [inputValue, setInputValue] = useState(""); // Input value for autocomplete
 
   return (
@@ -20,6 +20,7 @@ export default function SearchAutocomplete({ setSearch }) {
       }}
       renderInput={(params) => (
         <TextField
+          className = "card"
           {...params}
           placeholder="Search for the item in inventory..."
           variant="outlined"
