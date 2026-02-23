@@ -51,3 +51,52 @@
 .read-the-docs {
   color: #888;
 }
+
+.flex-width {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 2rem;
+  align-items: start;
+  width: 100%;
+}
+
+.add-item-row {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1rem 1.5rem; 
+  margin: 1rem 0;  
+  border-radius: 12px;
+}
+
+.add-item-row input {
+  height: 44px;        
+  font-size: 1rem;
+  padding: 0 0.75rem;
+  background: #f9f9f9;
+  border-radius: 5px;
+  color: #000000;
+}
+
+.add-item-row input:first-child {
+  flex: 3;
+}
+
+.add-item-row input[type="number"] {
+  width: 90px;
+  text-align: center;
+}
+
+.add-item-row button {
+  height: 44px;
+  padding: 0 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.error-text {
+  color: #d32f2f;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
